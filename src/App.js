@@ -1,9 +1,13 @@
 
+import Header from "./component/Header/Header";
+
 
 function App() {
   return (
-    <div className="App">
-    this is app
+    <div style={{height:"100vh"}} className="container-fluid  border border-primary">
+   <Header/>
+
+  
     </div>
   );
 }
