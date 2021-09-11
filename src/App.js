@@ -8,12 +8,13 @@ import Pricing from "./component/Pricing/Pricing";
 
 function App() {
   return (
-    <div style={{height:"100vh",overflow:"scroll"}} className="container-fluid bg-dark  border border-primary m-0 p-0">
+    <div style={{height:"100vh",overflow:"scroll"}} className="container-fluid bg-dark m-0 p-0">
    <Header/>
     <Home/>
     <Feature/>
     <Download/>
     <Pricing/>
+    <small style={{color:"gray" ,paddingLeft:"20px"}}>copyright @ 2021 ranjit </small>
     </div>
   );
 }
